@@ -1,16 +1,31 @@
-
 # NeuralRetail Analytics
 
-NeuralRetail Analytics is an end-to-end retail intelligence dashboard built using Python, Streamlit, Plotly, Scikit-learn and Prophet.
+🚀 **Live Demo:**  
+https://neuralretail-analytics-endxfvb49jbfczbeb73zwu.streamlit.app
 
-The project analyses retail transaction data and provides insights related to:
+📂 **GitHub Repository:**  
+https://github.com/balasai650/NeuralRetail-Analytics
 
-- Sales performance
-- Customer segmentation
-- Demand forecasting
-- Customer churn
-- Inventory optimization
-- Executive business reporting
+---
+
+## Overview
+
+NeuralRetail Analytics is an end-to-end Retail Intelligence Dashboard built using Python, Streamlit, Plotly, Scikit-learn, and Prophet.
+
+The dashboard analyzes retail transaction data and provides business insights through interactive visualizations and machine learning models.
+
+## Key Features
+
+- 📊 Sales Performance Dashboard
+- 👥 Customer Segmentation (RFM + K-Means)
+- 📈 Demand Forecasting using Prophet
+- 🔍 Customer Churn Prediction using Random Forest
+- 📦 Inventory Optimization
+- 📑 Executive Business Report
+- 📥 CSV Report Downloads
+- 🎨 Interactive and Responsive Streamlit Interface
+
+---
 
 ## Dashboard Pages
 
@@ -22,65 +37,55 @@ The project analyses retail transaction data and provides insights related to:
 6. Inventory Optimization
 7. Executive Report
 
-## Main Features
-
-- Interactive KPI cards
-- Plotly charts
-- Date filters
-- Country filters
-- Customer segment filters
-- Churn prediction tool
-- Product demand classification
-- CSV report downloads
-- Responsive Streamlit layout
+---
 
 ## Machine Learning Models
 
 ### Customer Segmentation
-
-K-Means clustering is used with RFM variables:
-
-- Recency
-- Frequency
-- Monetary value
+- K-Means Clustering
+- Features:
+  - Recency
+  - Frequency
+  - Monetary Value (RFM)
 
 ### Demand Forecasting
+- Facebook Prophet
+- Daily Revenue Forecasting
 
-Prophet is used to forecast future daily revenue.
-
-### Churn Prediction
-
-A Random Forest classifier predicts whether a customer is likely to churn using:
-
-- Total orders
-- Total revenue
-- Days since last purchase
+### Customer Churn Prediction
+- Random Forest Classifier
+- Features:
+  - Total Orders
+  - Total Revenue
+  - Days Since Last Purchase
 
 ### Inventory Optimization
-
-Products are classified as:
-
+Products are categorized into:
 - High Demand
 - Medium Demand
 - Slow Moving
 
+---
+
 ## Technologies Used
 
 - Python
+- Streamlit
 - Pandas
 - NumPy
+- Plotly
 - Scikit-learn
 - Prophet
-- Plotly
-- Streamlit
 - Joblib
+
+---
 
 ## Project Structure
 
 ```text
-NeuralRetail/
+NeuralRetail-Analytics/
 │
-├── app.py
+├── Home.py
 ├── requirements.txt
 ├── README.md
 │
@@ -102,3 +107,26 @@ NeuralRetail/
     ├── 4_Churn_Prediction.py
     ├── 5_Inventory_Optimization.py
     └── 6_Executive_Report.py
+```
+
+---
+
+## Business Insights
+
+- Identify high-value customer segments.
+- Forecast future sales trends.
+- Predict customers likely to churn.
+- Optimize inventory planning.
+- Monitor business KPIs through interactive dashboards.
+
+---
+
+## Author
+
+**Vasantha Bala Sai Kishore Babu**
+
+B.Tech – Computer Science & Engineering (Data Science)
+
+MLR Institute of Technology
+
+GitHub: https://github.com/balasai650
