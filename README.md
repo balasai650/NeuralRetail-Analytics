@@ -12,7 +12,7 @@ https://github.com/balasai650/NeuralRetail-Analytics
 
 ## Overview
 
-NeuralRetail Analytics is an interactive retail analytics application developed using **Python, Streamlit, Plotly, Scikit-learn, and Prophet**.
+NeuralRetail Analytics is an end-to-end Retail Intelligence Dashboard developed using **Python, Streamlit, Plotly, Scikit-learn, and Prophet** to analyze retail transaction data and generate actionable business insights through interactive visualizations and machine learning.
 
 The application analyzes retail transaction data and provides insights related to sales performance, customer behaviour, demand forecasting, customer churn, and inventory management.
 
